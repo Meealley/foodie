@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <title>
+                Fooddie
+            </title>
+            
+
+            <!---google fonts/icon-->
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+            rel="stylesheet">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
+
+            <!-- Bootstrap CSS -->
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+            <link rel="stylesheet" href="style.css">
+            
+            <!---aos animate-->
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+            <!--box icons-->
+            <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+            
+        </head>
+
+<body>
+
+                            <!----scroll to top button---
+<button id="btnScrollToTop"><span class="material-icons">arrow_upward</span>
+                            </button> ----->
+
+<!--Navbar-->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="img/logo2.jpg" class="navImg">
+        Foodie..</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link" href="#service">Service</a>
+          <a class="nav-link" href="#food">Foods</a>
+          <a class="nav-link" href="#recipe">Recipe</a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#health">Health</a>
+          <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+            <li><a class="dropdown-item" href="#">Gym fit</a></li>
+            <li><a class="dropdown-item" href="#">Body metabolism</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Medic</a></li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!--nigerian jollof-->
+  <section class="egusi">
+
+    <div class="container">
+        <div class="row">
+
+            <div class="col-6" data-aos="fade-right">
+                <img src="img/macncheese.jpg" class="rounded">
+            </div>
+
+            <div class="col-6 egusi-text" data-aos="fade-left">
+                <h2 class=" display-6">Mac n Cheese</h2>
+                <div class="divider"></div>
+
+                <p><span><i class='bx bxs-quote-alt-left bx-lg' ></i></span>This traditional Nigerian dish brings out the best possible flavor of rice and chicken. Chicken is first sauteed on the stove top to produce a wonderful aromatic base for the rice. For an extra special and authentic touch, serve jollof rice with fried plantains.
+                </p>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="ingredient" data-aos="fade-up-right">
+                    <h5 class="display-6" >Ingredient</h5>
+
+                    <div class="divider"></div>
+
+
+                    <div class="tick">
+                        <p><input type="checkbox" id="checkbox"><span>2 pounds chicken drumsticks</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>½ large onion, diced</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>3 cups parboiled rice</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>1 (14 ounce) can coconut milk</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>1 tablespoon curry powder, or more to taste</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>freshly ground black pepper</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>4 ripe plantains, peeled and cut diagonally into 1/2-inch slices</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>½ teaspoon ground black pepper, or to taste</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>1 ½ cups water</span></p>
+                        <p><input type="checkbox" id="checkbox"><span>1 (10 ounce) package frozen mixed vegetables (carrots, corn, peas)</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="timecook text-center" data-aos="fade-up">
+                    <h4><i class='bx bx-time bx-sm'></i></h4>
+
+                    <div class="timecook-text">
+                        <p>Cook : 1 hr 4 mins</p>
+                        <p>Total : 1 hr 29 mins</p>
+                        <p> Prep : 25 mins</p>
+                         <p>Servings : 8</p>
+                        <p>Yield : 8 servings</p>
+                    </div>
+                    <a href="#nutrifact">
+                        <p>Nutritional fact</p>
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="col-md-4">
+                <div class="eguvideo" data-aos="fade-left">
+                    <iframe width="400" height="315" src="https://www.youtube.com/embed/z4tNAyRdo70" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="directions" data-aos="zoom-in-right">
+                    
+                    <h5><span><i class='bx bx-bowl-hot bx-sm'></i></span> Directions</h5>
+
+                        <div class="steps" data-aos="fade-right">
+                            <h6 class="stepheader"><span class="material-icons">check_circle</span>Step 1</h6>
+                            <p>
+                                Place chicken drumsticks in a large Dutch oven over medium heat. Add 1/2 onion, ginger, crushed bouillon cubes, garlic, curry powder, 1 teaspoon herbes de Provence, black pepper, and cayenne pepper. Mix well. Cook until chicken starts sticking to the bottom, about 5 minutes. Pour in water, mix, cover the pot, and bring to a gentle simmer; cook for 15 minutes. Remove from heat.
+                            </p>
+                        </div>
+                        <div class="steps" data-aos="fade-left">
+                            <h6 class="stepheader"><span class="material-icons">check_circle</span>Step 2</h6>
+                            <p>
+                                Transfer chicken to a baking dish using a slotted spoon. Strain cooking liquid through a fine-mesh sieve. Reserve 1 1/2 cups liquid. Discard solids.
+                            </p>
+                        </div>
+                        <div class="steps" data-aos="fade-right">
+                            <h6 class="stepheader"><span class="material-icons">check_circle</span>Step 3</h6>
+                            <p>
+                                Preheat oven to 400 degrees F (200 degrees C).
+
+                            </p>
+                        </div>
+                        <div class="steps" data-aos="fade-left">
+                            <h6 class="stepheader"><span class="material-icons">check_circle</span>Step 4</h6>
+                            <p>
+                                Bake chicken in the preheated oven until no longer pink in the middle and the juices run clear, about 30 minutes. An instant-read thermometer inserted into the thickest part should read 165 degrees F (74 degrees C).
+                            </p>
+                        </div>
+                        <div class="steps" data-aos="fade-right">
+                            <h6 class="stepheader"><span class="material-icons">check_circle</span>Step 5</h6>
+                            <p>
+                                Heat 3 tablespoons vegetable oil in a large pot over medium-low heat and cook 1/2 onion until soft and translucent but not browned, about 5 minutes. Add tomato sauce; cook and stir until slightly thickened and infused into the oil, 5 to 7 minutes.
+                            </p>
+                        </div>
+                        <div class="steps" data-aos="fade-right">
+                            <h6 class="stepheader"><span class="material-icons">check_circle</span>Step 6</h6>
+                            <p>
+                                Stir reserved chicken broth, coconut milk, 1 teaspoon herbes de Provence, salt, and pepper into the pot. Bring to a simmer; add rice. Cook, stirring often, until rice is almost tender, 15 to 20 minutes. Add frozen vegetables and continue cooking until rice is tender and creamy, about 5 minutes.
+                            </p>
+                        </div>
+                        <div class="steps" data-aos="fade-right">
+                            <h6 class="stepheader"><span class="material-icons">check_circle</span>Step 7</h6>
+                            <p>
+                                Heat 1/2 cup of canola oil in a nonstick pan over medium heat. Add plantains and fry on both sides until golden and crispy, about 2 to 3 minutes per side. Drain on paper towels. Garnish jollof rice with friend plantains and serve with chicken.
+                            </p>
+                        </div>
+                        <div class="steps">
+                            <h6 class="stepheader">
+                                <span class="material-icons">
+                                    recommend
+                                    </span><b>Recommendation</b></h6>
+                            <p>
+                                You can substitute coconut milk with plain water. This is another variation of jollof rice, with less calories.
+
+                                You can also finish cooking the chicken either on the barbeque (grill) or fry in oil until crispy.
+                            </p>
+                        </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="popular" data-aos="fade-right">
+                    <h3 class="text-center">Most Popular</h3>
+                    <hr>
+
+                    <article class="popular-blog">
+                        
+                        <img src="img/local1.jpg"> 
+                        <div>
+                            <h6>Learn how to make a sweet Ghananian Jollof that would bring the whole west africa to your kitchen.</h6>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum beatae accusamus quos, sunt veniam maiores quibusdam ea amet facilis nisi libero quae qui eaque. Dignissimos quia aliquam mollitia quasi.</p>
+
+                            <a href="#">Read more <span>>></span></a>
+                            
+                        </div>
+                    </article>
+
+                    <article class="popular-blog">
+                        <img src="img/local1.jpg">
+                        <div>
+                            <h6>Learn how to make a sweet Ghananian Jollof that would bring the whole west africa to your kitchen.</h6>
+                            <p class="contentz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum beatae accusamus quos, sunt veniam maiores quibusdam ea amet facilis nisi libero quae qui eaque. Dignissimos quia aliquam mollitia quasi.</p>
+
+                            <a href=" " onclick="readMore(this)">Read more <span>>></span></a>
+                             
+                        </div>
+                    </article>
+
+                    <article class="popular-blog">
+                        <img src="img/local1.jpg">
+                        <div>
+                            <h6>Learn how to make a sweet Ghananian Jollof that would bring the whole west africa to your kitchen.</h6>
+                            <p class="contentz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum beatae accusamus quos, sunt veniam maiores quibusdam ea amet facilis nisi libero quae qui eaque. Dignissimos quia aliquam mollitia quasi.</p>
+
+                            <a href=" " onclick="readMore(this)">Read more <span>>></span></a>
+                            
+                        </div>
+                    </article>
+
+                    <article class="popular-blog">
+                        <img src="img/local1.jpg">
+                        <div>
+                            <h6>Learn how to make a sweet Ghananian Jollof that would bring the whole west africa to your kitchen.</h6>
+                            <p class="contentz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolorum beatae accusamus quos, sunt veniam maiores quibusdam ea amet facilis nisi libero quae qui eaque. Dignissimos quia aliquam mollitia quasi.</p>
+
+                            <a href="#" onclick="readMore(this)">Read more <span>>></span></a>
+                            
+                        </div>
+                    </article>
+
+                    
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="nutri" data-aos="fade-up">
+                    <h5 class="display-5" id="#nutrifact">Nutritional Facts</h5>
+                    <p><b>Per Serving:</b> 703 calories; protein 31.7g; carbohydrates 96.3g; fat 22.8g; cholesterol 70.8mg; sodium 942mg <a href="egupopup.html">Full Nutrition</a></p>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>Copyright &copy; 2022. By Oyewale</p>
+        </div>
+  
+        <div class="col-md-6 text-md-end pd-5">
+          <div>
+            <a href="https://twitter.com/WhaleyWildee"><i class='bx bxl-twitter bx-sm'></i></a>
+            <a href=""><i class='bx bxl-instagram bx-sm'></i></a>
+            <a href=""><i class='bx bxl-slack bx-sm'></i></a>
+            <a href=""><i class='bx bxl-facebook-circle bx-sm'></i></a>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--aos js-->
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins&family=Raleway&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav {
+    z-index: 100;
+    
+    box-shadow: 0 12px 21px 1px rgba(0, 0, 0, 0.1);
+}
+.navImg {
+    width: 60px;
+    height: 40px;
+    object-fit: cover;
+}
+
+#home {
+    margin-top: 1px;
+    padding-top: 80px;
+    padding-bottom: 70px;
+    background-image: url(img/bgcover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: 2;
+}
+
+h1,h2,h3,h4,h5 {
+    font-weight: 700;
+}
+
+img {
+    height: 300px;
+    object-fit: cover;  
+}
+
+#home img:hover {
+    transform: scale(.9);
+}
+
+.btn {
+    border: none;
+    margin-left: 180px;
+    margin-top: 30px;
+    box-shadow: 0 6px 5px 0 rgba(0,0,0,0.2);
+    background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    transition: all 0.4s ease;
+}
+
+.btn:hover {
+    background: #c7c9c5;
+    color: #333;
+    transform: translateY(-6px);
+}
+.btn:active {
+    border: none;
+    background: #eaf078;
+}
+
+/*----service----*/
+
+#service {
+    margin-bottom: 60px;
+}
+.section-intro {
+    margin-top: 30px;
+    margin-bottom: 17px;
+}
+.section-intro .divider {
+    height: 2px;
+    width: 3rem;
+    margin: auto;
+    background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    margin-bottom: 2.6rem;
+
+}
+.catering button {
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    padding: 4px 5px;
+    border-radius: 5px;
+    box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+}
+.hide {
+    display: none;
+}
+.catering h5 {
+    margin-top: 15px;
+}
+.catering-img img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 9px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.catering-img img:hover {
+    transform: scaleX(1.05);
+}
+
+/*---food section---*/
+#food .divider {
+    height: 2px;
+    width: 3rem;
+    margin: auto;
+    background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    margin-bottom: 2.6rem;
+}
+#food .filters {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+#food ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+#food ul li {
+    list-style: none;
+    background: #eeee;
+    padding: 9px 10px;
+    margin: 5px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+#food ul li.active {
+    background: #2feb7a;
+    color: #fff;
+}
+
+#food .filters .product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#food .filters .product .itemBox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: block;
+}
+
+#food .filters .product .itemBox.hide {
+    display: none;
+}
+
+#food .filters .product .itemBox img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*====recipe====*/
+#recipe .divider {
+    height: 2px;
+    width: 3rem;
+    margin: auto;
+    background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    margin-bottom: 2.6rem;
+}
+.recipe-card .rec a {
+    text-decoration: none;
+    color: #333;
+}
+.recipe-card .rec a:hover {
+    color: #2feb7a;
+    box-shadow: 2px 10px 13px 1px rgba(0,0,0,0.2);
+}
+
+.recipe-card {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+    background-image: url(img/pics-7.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.recipe-card .rec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recipe-card .rec .card {
+    margin: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.recipe-card .rec .card img {
+        object-fit: cover;
+}
+.recipe-card .rec .card:hover {
+    transform: scale(1.05);
+}
+
+
+/*-----------------------------------------FROM EGUSI.HTML--------------------------------------*/
+.egusi {
+    margin-top: 80px;
+}
+.egusi-text .divider {
+    height: 2px;
+    width: 3rem;
+    margin-left: 70px;
+    background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    margin-bottom: 2.6rem;
+}
+.egusi .divider {
+    height: 2px;
+    width: 3rem;
+    margin-left: 70px;
+    background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    margin-bottom: 2.6rem;
+}
+.egusi img {
+    object-fit: cover;
+    width: 95%;
+    height: 90%
+    
+}
+.egusi-text {
+    padding: 20px;
+    padding-right: 19px;
+}
+
+hr {
+    margin-bottom: 60px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#checkbox {
+    margin-right: 10px;
+}
+
+.timecook {
+    margin-top: 100px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    position: relative;
+    width: 75%;
+}
+.timecook .bx-time {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    color: #fff;
+   background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    position: absolute;
+    bottom: 215px;
+    left: -6%;
+}
+.timecook .timecook-text p {
+    margin-top: 9px;
+}
+.eguvideo {
+    margin-top: 80px;
+    width: 80%;
+}
+.directions #hrline1 {
+    color: #2feb7a;
+    font-size: 35px;
+    width: 40px;
+    position: absolute;
+    display: flex;
+    right: 60%;
+    bottom: -4%;
+    z-index: 2;
+}
+/*second horizontal line with icon#hrline2 { 
+    color: #2feb7a;
+    font-size: 35px;
+    width: 40px;
+    position: absolute;
+    display: flex;
+    right: 22%;
+    bottom: -50%;
+    z-index: 2;
+}---*/
+
+.steps .stepheader .material-icons {
+    margin: 6px;
+    padding-top: 16px;
+    margin-top: 10px;
+    color: #2feb7a;
+    cursor: pointer;
+}
+
+/*---scroll to top button---
+#btnScrollToTop {
+    position: fixed;
+    top: 10px;
+    bottom: -39px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #eaf078;
+    color: red;
+    outline: none;
+    cursor: pointer;
+} ---*/
+
+/*--------most popular link tag--------*/
+.popular a {
+    padding: 3px 0;
+    text-decoration: none;
+    display: block;
+    transition: all 0.5s;
+}
+.popular {
+    border: 1px solid rgb(83, 119, 98);
+    border-radius: 7px;
+    background: rgba(240, 245, 244, 0.959);
+    margin-bottom: 24px;
+    
+}
+
+.popular span {
+    transition: 
+    padding-left 0.5s;
+
+}
+
+.popular a:hover span {
+    padding-left: 5px;
+}
+.popular a:hover {
+    color: #2feb7a;
+}
+.popular {
+    padding: 30px 10px;
+}
+.popular-blog img {
+    width: 130px;
+    height: 100px;
+    margin-left: 20px;
+    object-fit: cover;
+    align-self: center;
+}
+.popular .popular-blog > h4 {
+     padding: 15px 0 15px 30px;
+}
+.popular .popular-blog h6 {
+    padding: 10px 0;
+    font-size: 16px;
+
+}
+.popular .popular-blog p {
+    font-size: 13px;
+    font-weight: 300;
+}
+.popular article {
+    padding: 5px 9px;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    border-bottom: 1px solid #2feb7a;
+}
+
+/*-----------------table------------*/
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #fff;
+  
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    
+}
+
+.popup .content {
+      position: absolute;
+      top: 20%;
+      left: 34%;
+      
+      background: #fff;
+      width: 450px;
+      height: 250px;
+      z-index: 2;
+      text-align: center;
+      padding: 15px;
+      box-sizing: border-box;
+      
+}
+.note {
+    background: #fff;
+    margin-top: 0px;
+}
+.popup .close-btn {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: red;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+
+.popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%);
+}
+
+
+/*----------------health-------//////--*/
+#health {
+    background: #fff;
+}
+
+.health-text {
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 12px;
+
+}
+section .health-text .healpth {
+    margin-top: 35px;
+    
+}
+section .health-text .divider {
+    height: 2px;
+    width: 3rem;
+    margin-left: 45px;
+    background: linear-gradient(110deg, #729693 3%, #2feb7a 97%);
+    margin-bottom: 2.6rem;
+}
+
+/*--------------body mass index calculator--------*/
+
+.wrapper {
+    margin-top: 10rem;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 15px;
+    background: linear-gradient(140deg, #729693 6%, #2feb7a 94%);
+    border-radius: 6px;
+    box-shadow: 0 12px 15px -5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+.wrapper > h2 {
+    margin-bottom: 13px;
+
+}
+
+.wrapper span {
+    color: red;
+}
+.wrapper input {
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 20px;
+}
+.wrapper p {
+    margin-top: 20px;
+}
+.wrapper button {
+    padding: 10px;
+    border-radius: 6px;
+    background: #2feb7a;
+    color: #fff;
+    margin-top: 9px;
+    border:  1px solid #fff;
+}
+.wrapper button:hover {
+    color: #333;
+}
+.clearfix {
+    clear: both;
+}
+footer {
+    background: #333;
+    color: white;
+}
+footer .bx {
+    color: #fff;
+}
+footer .col-md-6 {
+    margin-top: 18px;
+    padding: 3px;
+}
+footer .col-md-6 .bx {
+    padding: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
